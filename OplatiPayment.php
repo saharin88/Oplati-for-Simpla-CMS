@@ -172,13 +172,7 @@ class OplatiPayment
         if (isset($httpcode) && $httpcode >= 200 && $httpcode < 300) {
             return json_decode($body, true);
         } else {
-
-            echo "<pre>";
-            var_dump($body);
-            echo "</pre>";
-            // Log errot
-
-            //PrestaShopLogger::addLog("Response(".$httpcode."): ".$body, 3);
+            //TODO log error message;
             throw new Exception('Bad response.');
         }
     }
