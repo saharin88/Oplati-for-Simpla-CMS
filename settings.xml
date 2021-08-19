@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>
+        Oplati
+    </name>
+    <settings>
+        <variable>regnum</variable>
+        <name>Regnum</name>
+    </settings>
+    <settings>
+        <variable>password</variable>
+        <name>Password</name>
+    </settings>
+    <settings>
+        <variable>test</variable>
+        <name>Тестовый режым</name>
+        <options>
+            <name>Enabled</name>
+            <value>1</value>
+        </options>
+        <options>
+            <name>Disabled</name>
+            <value>0</value>
+        </options>
+    </settings>
+    <settings>
+        <variable>check_status_timeout</variable>
+        <name>Check status timeout (sec.)</name>
+        <value>3</value>
+    </settings>
+    <settings>
+        <variable>qrsize</variable>
+        <name>QR size</name>
+        <value>180</value>
+    </settings>
+</module>
